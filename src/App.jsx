@@ -7,7 +7,7 @@ function App() {
     fetch("https://prueba-backend-7d7m.onrender.com/")
     .then(respuesta => respuesta.json())
     .then(color => setColor(color))
-  }, [])
+  }, []);
 
   return (
     <>
